@@ -6,7 +6,8 @@ import Day01 from './components/Day01';*/
 //import Day0603 from "./components/Day06/Day0603";
 //import Extra from "./components/Day06/Extra";
 //import Day0702 from "./components/Day07/Day0702"
-import Day0703 from "./components/Day07/Day0703"
+//import Day0703 from "./components/Day07/Day0703"
+import Extra from "./components/Day07/Extra01"
 function App() {
 
   // const flower={
@@ -27,7 +28,8 @@ function App() {
    //<Day0603></Day0603>
    //<Extra></Extra>
    //<Day0702></Day0702>
-   <Day0703></Day0703>
+   //<Day0703></Day0703>
+   <Extra01></Extra01>
   );
 }
 
