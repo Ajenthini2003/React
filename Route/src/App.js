@@ -26,7 +26,7 @@ function App() {
   //  </Routes>
   <div>
     {/* <Exercise01></Exercise01> */}
-  <BrowserRouter>
+  {/* <BrowserRouter>
    <nav>
     <Link to='/home'>Home1</Link>
     <Link to='/about'>About1</Link>
@@ -39,7 +39,7 @@ function App() {
    
    </Routes>
 
-</BrowserRouter>
+</BrowserRouter> */}
 
 
     

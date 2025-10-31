@@ -1,7 +1,7 @@
 import { useState } from "react";
 export default function Day06(){
 
-    let clicked=1;
+    let clicked=0;
     let [count,setCount]=useState(clicked);
     let handleClick=()=>
     {
