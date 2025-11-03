@@ -19,7 +19,7 @@ export default function Day0703(){
 {
     alert('count more than 5')
 }
-
+ 
     }
     useEffect(fun1,[count]);
 

@@ -1,7 +1,5 @@
 //import { LearnComponents } from "./components/LearnComponents"
-
 //import { Student } from "./components/Student"
-
 //import { Header } from "./components/Header"
 //import { Hooks01 } from "./components/Hooks01"
 // import { ToDolist } from "./components/ToDolist"
@@ -11,7 +9,10 @@
 // import Like from './components/day7/Like'
 // import Form1 from './components/day9/Form1';
 // import Task from './components/day8(forms)/Task';
-import Form2 from './components/Classwork/Form2'
+//import Form2 from './components/Classwork/Form2'
+//import Exercise01 from "./components/Classwork/Exercise01";
+import FirstPractice from "./components/FirstPractice"
+
 function App() {
   
 
@@ -25,8 +26,12 @@ function App() {
    <Student name="vihya" ></Student> */}
    {/* <Hooks01></Hooks01> */}
    {/* <ToDolist></ToDolist> */}
-   <Form2></Form2>
+    {/* <Form2></Form2>  */}
+
+   {/* <Exercise01></Exercise01> */}
+   <FirstPractice></FirstPractice>
    </div>
+   
   )
 }
 
