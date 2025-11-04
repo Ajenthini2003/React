@@ -11,7 +11,8 @@
 // import Task from './components/day8(forms)/Task';
 //import Form2 from './components/Classwork/Form2'
 //import Exercise01 from "./components/Classwork/Exercise01";
-import FirstPractice from "./components/FirstPractice"
+//import FirstPractice from "./components/FirstPractice"
+import FormBrief from "./components/FormBrief"
 
 function App() {
   
@@ -29,7 +30,8 @@ function App() {
     {/* <Form2></Form2>  */}
 
    {/* <Exercise01></Exercise01> */}
-   <FirstPractice></FirstPractice>
+   {/* <FirstPractice></FirstPractice> */}
+   <FormBrief></FormBrief>
    </div>
    
   )
