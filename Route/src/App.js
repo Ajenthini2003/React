@@ -2,14 +2,16 @@
 // import Profile from './components/Profile'
 // import AboutUs from './components/AboutUs'
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-//import Exercise01 from './components/Exercise01';
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
-import Home1 from './components/Activity/Home1'
-import About1 from './components/Activity/About1'
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// //import Exercise01 from './components/Exercise01';
+ import logo from './logo.svg';
+// import './App.css';
+// import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
+// import Home1 from './components/Activity/Home1'
+// import About1 from './components/Activity/About1'
+//import SortandFilter from './components/Sorting/SortandFilter';
+// import SortandFilter2 from './components/Sorting/SortandFilter2';
+import Filter from './components/Sorting/Filter'
 function App() {
   return (
   //  <BrowserRouter>
@@ -40,7 +42,9 @@ function App() {
    </Routes>
 
 </BrowserRouter> */}
-
+{/* <SortandFilter></SortandFilter> */}
+{/* <SortandFilter2></SortandFilter2> */}
+<Filter></Filter>
 
     
   </div>

@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 //import Table2 from './components/Table2';
-import BMI1 from './components/BMI1'
+//import BMI1 from './components/BMI1'
+import BmiCalculator from './components/BmiCalculator';
 
 function App() {
   
@@ -24,7 +25,8 @@ function App() {
 return (
   // <Table2 data={table}></Table2>
 
-  <BMI1></BMI1>
+  //<BMI1></BMI1>
+  <BmiCalculator></BmiCalculator>
 )
 }
 
