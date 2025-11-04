@@ -11,7 +11,8 @@ import React from 'react';
 // import About1 from './components/Activity/About1'
 //import SortandFilter from './components/Sorting/SortandFilter';
 // import SortandFilter2 from './components/Sorting/SortandFilter2';
-import Filter from './components/Sorting/Filter'
+// import Filter from './components/Sorting/Filter'
+import Filter2 from './components/Sorting/Filter2'
 function App() {
   return (
   //  <BrowserRouter>
@@ -44,7 +45,8 @@ function App() {
 </BrowserRouter> */}
 {/* <SortandFilter></SortandFilter> */}
 {/* <SortandFilter2></SortandFilter2> */}
-<Filter></Filter>
+{/* <Filter></Filter> */}
+<Filter2></Filter2>
 
     
   </div>
