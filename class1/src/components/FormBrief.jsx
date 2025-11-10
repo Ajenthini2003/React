@@ -64,7 +64,7 @@ const handleReset=()=>{
 
 return(
     <div className="App">
-        <h1 style={{color:"green"}}>Form in React</h1>
+        <h1>Form in React</h1>
         <form>
             <div>
                  <label>First name*</label>       

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import '../SortandFilter.css'
 
 export default function SortandFilter(){
 
@@ -45,18 +45,12 @@ const stringDse=()=>{
 );
 setSorted(sorting);
 }
-
-
-
-
-
-
-
+                                                   
 return(
     <>
     {
         sorted.map((item)=>(
-         <div>
+         <div className="App">
             <span>ID:{item.id}</span>
             <span>Name:{item.name}</span>
             <span>Age:{item.age}</span>

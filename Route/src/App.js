@@ -9,10 +9,11 @@ import React from 'react';
 // import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
 // import Home1 from './components/Activity/Home1'
 // import About1 from './components/Activity/About1'
-//import SortandFilter from './components/Sorting/SortandFilter';
+import SortandFilter from './components/Sorting/SortandFilter';
 // import SortandFilter2 from './components/Sorting/SortandFilter2';
 // import Filter from './components/Sorting/Filter'
-import Filter2 from './components/Sorting/Filter2'
+//import Filter2 from './components/Sorting/Filter2'
+
 function App() {
   return (
   //  <BrowserRouter>
@@ -43,10 +44,10 @@ function App() {
    </Routes>
 
 </BrowserRouter> */}
-{/* <SortandFilter></SortandFilter> */}
+<SortandFilter></SortandFilter> 
 {/* <SortandFilter2></SortandFilter2> */}
 {/* <Filter></Filter> */}
-<Filter2></Filter2>
+{/* <Filter2></Filter2> */}
 
     
   </div>
