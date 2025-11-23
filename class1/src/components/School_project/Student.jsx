@@ -37,7 +37,7 @@ export default function Student() {
     <>
       <div style={{ backgroundColor: "#c2ab80ff", marginLeft: "550px", color: "#800000", marginTop: "80px", padding: "20px", borderRadius:"10px" }}>
         
-        {/* Search */}
+       
         <input
           style={{ marginLeft: "100px", padding:"5px" }}
           type="text"
@@ -46,7 +46,7 @@ export default function Student() {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
 
-        {/* Table */}
+        
         <table cellPadding="8" style={{ marginTop: "10px", borderCollapse: "collapse", backgroundColor: "white", border: "1px solid #800000", width:"100%" }}>
           <thead>
             <tr>
@@ -74,7 +74,7 @@ export default function Student() {
           </tbody>
         </table>
 
-        {/* Total Students Count Below Table */}
+        
         <h3 style={{ marginTop: "20px", textAlign: "center" }}>
           Total Students: {sorted.length}
         </h3>
