@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #660708;
+  font-weight:200;
+  height:60px;
+}
+
+nav a {
+    font-size:30px;
+  color: #b1a7a6;
+  text-decoration: none;
+  transition: color 0.3s;
+  
+}
+
+nav a:hover {
+  color: #FFD700; 
+}
+.main {
+    display: flex;
+    text-decoration: none;
+    margin-left: 1200px;
+    margin-top: 10px;
+    
+}
+body{
+    background-color: #eeebdd;
+}
+
