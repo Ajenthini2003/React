@@ -34,7 +34,7 @@ const StatusCounters = () => {
       <div> Staff: <Counter target={12} /></div>
       <div> Branches: <Counter target={5} /></div>
       <div> Customers: <Counter target={200} /></div>
-      <div>Products: <Counter target={12} /></div>
+      <div> Products: <Counter target={12} /></div>
     </div>
   );
 };

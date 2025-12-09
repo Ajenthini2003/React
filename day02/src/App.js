@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Praroz from './components/Day0303';
 
+
+//import Day0303 from './components/Day0303';
+import ColorChange from './components/ColorChange'
 
 function App() {
   return (
-   <Day0303></Day0303>
+   <ColorChange></ColorChange>
    
   );
 }
