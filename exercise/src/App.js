@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 //import Table2 from './components/Table2';
-//import BMI1 from './components/BMI1'
-import BmiCalculator from './components/BmiCalculator';
+import BMI1 from './components/BMI1'
+//import BmiCalculator from './components/BmiCalculator';
 
 function App() {
   
@@ -17,7 +17,7 @@ function App() {
 //     {Empid:'E004',Name:'Manoj K.',Department:'Finance',Position:'Accountant',Salary:'110 000',JoiningDate:'9/25/2021'},
 
 //     {Empid:'E005',Name:'Anjali R.',Department:'Design',Position:'UI/UX Designer',Salary:'105 000',JoiningDate:'4/1/2023'},
-
+<BMI1></BMI1>
    
 
 // ]

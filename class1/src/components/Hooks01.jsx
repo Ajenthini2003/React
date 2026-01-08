@@ -4,7 +4,7 @@ import img3 from '/home/uki-dsa-05/Desktop/React/day01/src/assets/doll.jpeg'
  import img4 from '/home/uki-dsa-05/Desktop/React/day01/src/assets/jpeg'
 
 import { useEffect,useState } from "react";
-export default function Day0703(){
+export default function Hooks01(){
      let [count,setCount]=useState(0);
 
     let handleClick=()=>
